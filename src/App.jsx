@@ -11,9 +11,9 @@ function App() {
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent">
           <Navbar />
           <main className='pt-20'>
-            {/* <section>
+            <section>
             <Profile/>
-          </section> */}
+          </section>
 
           </main>
         </div>
