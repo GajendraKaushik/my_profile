@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import Profile from './components/Profile/Profile';
+import Experience from './components/Experience';
 
 function App() {
 
@@ -12,9 +13,9 @@ function App() {
           <Navbar />
           <main className='pt-20'>
             <section>
-            <Profile/>
-          </section>
-
+              <Profile />
+              <Experience />
+            </section>
           </main>
         </div>
       </div>
