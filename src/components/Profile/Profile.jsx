@@ -34,14 +34,14 @@ const Profile = () => {
     },
   ];
   return (
-    <div>
+    <div className="relative w-full h-screen overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-950">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent" />
         <section
           id='about'
           className='min-h-screen flex items-center relative overflow-hidden'
         >
-          <div className='container mx-auto px-6 py-16 mt-20'>
+          <div className='container mx-auto px-6 py-16 mt-24'>
             <div className='flex flex-col md:flex-row items-center gap-16'>
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
@@ -122,17 +122,14 @@ const Profile = () => {
               >
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl opacity-20">
                   <img
-                    src="/"
+                    src="https://www.freepik.com/free-vector/tiny-business-people-with-digital-devices-big-globe-surfing-internet_11669276.htm#fromView=keyword&page=1&position=2&uuid=c4227e49-4b96-4a0a-a6dd-016a5731b8eb&query=Online+Web"
                     alt="Profile"
-                    fill
                     className="rounded-full object-cover border-4 border-purple-500/20"
                     draggable='false'
-
                   />
                 </div>
 
               </motion.div>
-
             </div>
           </div>
 
