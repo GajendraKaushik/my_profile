@@ -120,9 +120,9 @@ const Profile = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 className="relative w-96 h-96 hidden md:block"
               >
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl opacity-20">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl opacity-100 filter-none">
                   <img
-                    src="https://www.freepik.com/free-vector/tiny-business-people-with-digital-devices-big-globe-surfing-internet_11669276.htm#fromView=keyword&page=1&position=2&uuid=c4227e49-4b96-4a0a-a6dd-016a5731b8eb&query=Online+Web"
+                    src="https://github.com/GajendraKaushik/certificates_and_achievements/raw/main/Images/black.jpeg"
                     alt="Profile"
                     className="rounded-full object-cover border-4 border-purple-500/20"
                     draggable='false'
