@@ -41,7 +41,7 @@ const Profile = () => {
           id='about'
           className='min-h-screen flex items-center relative overflow-hidden'
         >
-          <div className='container mx-auto px-6 py-16 mt-24'>
+          <div className='container mx-auto px-6 py-16 mt-20'>
             <div className='flex flex-col md:flex-row items-center gap-16'>
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
@@ -84,12 +84,13 @@ const Profile = () => {
                   <a
                     href="/"
                     download
-                    className="flex items-center gap-2 px-6 py-3 bg-purple-500 rounded-lg hover:bg-pink-600 transition-colors"
+                    className="flex items-center gap-2 px-6 py-3 bg-purple-500 rounded-lg hover:bg-purple-600 transition-colors"
                   >
                     <FileDown size={20} />
                     Resume
                   </a>
                 </motion.div>
+                
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}

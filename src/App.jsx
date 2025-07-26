@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import Profile from './components/Profile/Profile';
 import Experience from './components/Experience';
+import SkillSection from './components/Skill/SkillSection';
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
           <main>
             <Profile />
             <Experience />
+            <section id='skills'>
+              <SkillSection />
+            </section>
           </main>
         </div>
       </div>

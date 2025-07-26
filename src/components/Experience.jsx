@@ -63,7 +63,7 @@ const Experience = () => {
                                 className={`relative mb-12 md:mb-20 last:mb-0 flex flex-col md:flex-row items-start z-10`}
                             >
                                 {/* Timeline Dot */}
-                                <div className='absolute left-4 md:left-1/2 -translate-x-1/2'>
+                                <div className='hidden md:block absolute left-4 md:left-1/2 -translate-x-1/2'>
                                     <div
                                         className={`w-12 md:w-16 h-12 md:h-16 rounded-xl md:rounded-2xl rotate-45 flex items-center justify-center
                                 ${exp.current ?
