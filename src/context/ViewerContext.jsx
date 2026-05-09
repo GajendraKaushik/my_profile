@@ -44,7 +44,7 @@ const applyColorMode = (colorMode) => {
   try {
     localStorage.setItem('hy_color_mode', colorMode);
   } catch {
-    // ignore
+    // Not needed for now
   }
 };
 
@@ -67,7 +67,7 @@ export function ViewerProvider({ children }) {
         document.documentElement.setAttribute('data-theme', saved);
       }
     } catch {
-      // ignore
+      // Not needed for now 
     }
 
     setReady(true);
