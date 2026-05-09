@@ -6,6 +6,16 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gajendra Kaushik</title>
+  <script>
+    (function () {
+      try {
+        var mode = localStorage.getItem('hy_color_mode') || 'dark';
+        document.documentElement.setAttribute('data-theme', mode);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
 </head>
 
 <body>

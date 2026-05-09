@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+:root,
+[data-theme="dark"] {
+  --bg: #080c14;
+  --bg-surface: #0b1120;
+  --bg-card: rgba(255, 255, 255, 0.025);
+  --border: rgba(255, 255, 255, 0.12);
+
+  --fg: #e2e8f0;
+  --fg-2: #94a3b8;
+  --fg-3: #64748b;
+}
+
+[data-theme="light"] {
+  --bg: #f0f4f8;
+  --bg-surface: #ffffff;
+  --bg-card: rgba(0, 0, 0, 0.025);
+  --border: rgba(0, 0, 0, 0.12);
+
+  --fg: #0f172a;
+  --fg-2: #334155;
+  --fg-3: #475569;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--fg);
+  background: var(--bg);
+}
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: 0.018;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
