@@ -4,6 +4,7 @@ import Navbar from './components/NavBar/Navbar';
 import Profile from './components/Profile/Profile';
 import Experience from './components/Experience';
 import SkillSection from './components/Skill/SkillSection';
+import ProjectSection from './components/Projects/ProjectSection.jsx';
 import { useViewer } from './context/ViewerContext.jsx';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
             <Experience />
             <section id='skills'>
               <SkillSection />
+            </section>
+            <section id="projects" className="pb-24">
+              <ProjectSection />
             </section>
           </main>
         </div>

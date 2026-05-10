@@ -83,7 +83,7 @@ const Navbar = () => {
                 {active && (
                   <motion.span
                     layoutId="nav-indicator"
-                    className="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full"
+                    className="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full"
                     style={{ background: accent, boxShadow: `0 0 10px ${accent}` }}
                   />
                 )}
